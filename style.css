@@ -1,0 +1,64 @@
+
+/* Usei esse comando para mudar o fundo de todo o corpo do código, mudar a fonte e o espaçamento */
+body{
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    
+}
+
+/* Mudei a cor do titulos e subtitulos, e também toda a formatação */
+h1,h2{
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.cabecario{
+    text-align: center;
+    width: auto;
+}
+
+h3{
+    color: orangered;
+    font-size: 22px;
+    text-align: center;
+}
+
+li{
+    font-size: 18px;
+}
+
+.containertext{
+    width: 30%;
+    text-align: justify;
+
+    /* Alinham elementos no meio */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.imgprincipal{
+    border: 5px solid brown;
+    width: 52%;
+}
+
+.container {
+    text-align: center;
+   
+}
+
+hr{
+    border: 1px solid brown;
+}
+
+ul,ol{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}
+
+
